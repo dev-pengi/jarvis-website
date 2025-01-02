@@ -37,14 +37,14 @@ const Footer: FC = () => {
             </span>
           </div>
           <div className="flex items-center gap-16">
-            <div className="flex items-center gap-[56px] text-[22px] font-semibold">
+            <div className="flex items-center gap-[56px] text-lg font-semibold">
               <a href="/projects">Link</a>
               <a href="/platform">Contact Us</a>
             </div>
             <div className="flex items-center gap-5">
               {socialMedia.map((social) => (
                 <a
-                  className="min-w-[56px] min-h-[56px] flex items-center justify-center rounded-full text-xl"
+                  className="min-w-[40px] min-h-[40px] flex items-center justify-center rounded-full text-base"
                   style={{ backgroundColor: social.color }}
                   href={social.href}
                   key={social.href}
