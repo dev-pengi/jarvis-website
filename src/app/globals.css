@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  font-family: "Monda", "Montserrat", "Poppins", "Roboto", "sans-serif";
+  font-weight: 400;
+}
+
+.monda {
+  font-family: "Monda", "Montserrat", "Poppins", "Roboto", "sans-serif";
+}
+
+.monsterrat {
+  font-family: "Montserrat", "Monda", "Poppins", "Roboto", "sans-serif";
+}
+
+.poppins {
+  font-family: "Poppins", "Monda", "Montserrat", "Roboto", "sans-serif";
+}
+
+.roboto {
+  font-family: "Roboto", "Monda", "Montserrat", "Poppins", "sans-serif";
+}
+
+:root {
+  --background: #fff;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.no-drag {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  color: currentColor;
+}
+
+body,
+#root {
+  background-color: var(--background) !important;
+  color: #000;
+}
+
+.pattern {
+  background-image: url("/pattern.svg");
+  background-repeat: repeat;
+  opacity: 0.08;
+}
+
+body {
+  overflow-x: hidden !important;
+  pointer-events: auto !important;
+}

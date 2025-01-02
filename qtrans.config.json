@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis",
+  "location": "src/langs",
+  "port": 6757,
+  "typeSafe": true
+}
