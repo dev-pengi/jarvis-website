@@ -6,7 +6,7 @@ const HeroSection: FC = () => {
     <>
       <section className="pt-32">
         <Container>
-          <div className="relative text-7xl font-bold tracking-[1px] text-center">
+          <div className="relative">
             <img
               src="/three-stars.png"
               alt=""
@@ -17,11 +17,11 @@ const HeroSection: FC = () => {
               alt=""
               className="absolute right-[50px] -top-12"
             />
-            <h1 className="relative monda">
+            <h1 className="relative monda lg:text-7xl md:text-5xl text-4xl font-bold tracking-[1px] text-center">
               Optimisez vos opérations en toute simplicité
             </h1>
           </div>
-          <div className="text-[26px] mt-8 font-medium text-gray-3 text-center flex flex-col items-center justify-center leading-[46px]">
+          <div className="lg:text-[26px] md:text-[20px] text-[18px] lg:leading-[46px] leading-[30px] mt-8 font-medium text-gray-3 text-center flex flex-col items-center justify-center">
             <p className="montserrat">
               Une plateforme tout-en-un pour l'analyse en temps réel,
             </p>

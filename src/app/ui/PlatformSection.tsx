@@ -15,7 +15,7 @@ const PlatformSection: FC = () => {
   return (
     <section className="pt-32">
       <Container>
-        <div className="relative text-[54px] font-bold tracking-[1px] text-center">
+        <div className="relative">
           <img
             src="/two-stars.png"
             alt=""
@@ -26,18 +26,18 @@ const PlatformSection: FC = () => {
             alt=""
             className="absolute right-[80px] bottom-4"
           />
-          <h2 className="relative monda">
+          <h2 className="relative monda lg:text-[54px] md:text-[40px] text-[33px]  font-bold tracking-[1px] text-center">
             Tous les outils réunis sur une seule plateforme !
           </h2>
         </div>
-        <div className="mt-6 flex items-center justify-center gap-8">
-          <div className="text-yellow font-semibold text-lg monsterrat">
+        <div className="mt-6 flex items-center justify-center flex-wrap gap-x-8 gap-y-2">
+          <div className="text-yellow font-semibold text-lg monsterrat  w-max">
             Ressource Humaine
           </div>
           {keywords.map((keyword) => (
             <div
               key={keyword}
-              className="text-darkerblue font-semibold text-lg monsterrat"
+              className="text-darkerblue font-semibold text-lg monsterrat w-max"
             >
               {keyword}
             </div>

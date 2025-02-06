@@ -29,14 +29,14 @@ const Footer: FC = () => {
   return (
     <footer className="bg-darkblue mt-12 text-white py-8">
       <Container>
-        <div className="flex gap-8 items-center justify-between">
+        <div className="flex gap-8 items-center justify-between flex-wrap">
           <div className="flex items-center space-x-8">
             <img src="/logo.png" alt="logo" className="h-16 rounded-md" />
             <span className="text-xl font-black uppercase monsterrat">
               Jarvis
             </span>
           </div>
-          <div className="flex items-center gap-16">
+          <div className="flex items-center flex-wrap gap-16">
             <div className="flex items-center gap-[56px] text-lg font-semibold">
               <a href="/projects">Link</a>
               <a href="/platform">Contact Us</a>

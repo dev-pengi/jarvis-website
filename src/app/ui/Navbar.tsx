@@ -12,7 +12,7 @@ const Navbar: FC = () => {
               Jarvis
             </span>
           </div>
-          <div className="flex items-center space-x-11">
+          <div className="lg:flex hidden items-center space-x-11">
             <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
               Home
             </a>
@@ -26,7 +26,13 @@ const Navbar: FC = () => {
               Contact
             </a>
           </div>
-          <div></div>
+          <a
+            href="https://dashboard.extjarvis.fr"
+            // target="_blank"
+            className="bg-[#243241] rounded-xl text-lg monsterrat font-black text-white px-[20px] py-[7px] hover:opacity-85 duration-100"
+          >
+            Login
+          </a>
         </div>
       </Container>
     </nav>
