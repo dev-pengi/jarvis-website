@@ -1,9 +1,6 @@
 import { FC } from "react";
 import Container from "../components/Container";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
-
 const keywords = [
   "RH",
   "Gestion des stocks",
@@ -50,15 +47,6 @@ const PlatformSection: FC = () => {
             alt="Jarvis Platform screenshot"
             className="w-full"
           />
-        </div>
-        <div className="mt-11 flex items-center justify-center">
-          <a
-            href="/"
-            className="flex items-center gap-3 bg-lightyellow/15 hover:bg-lightyellow/30 duration-75 text-yellow py-4 px-12 rounded-2xl"
-          >
-            <FontAwesomeIcon icon={faPlay} />
-            Watch video
-          </a>
         </div>
       </Container>
     </section>
