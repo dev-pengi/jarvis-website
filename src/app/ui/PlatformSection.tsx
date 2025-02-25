@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const keywords = [
-  "Menagment de stock",
+  "RH",
+  "Gestion des stocks",
   "Planification",
   "Rapport",
-  "Facturation",
 ];
 
 const PlatformSection: FC = () => {
@@ -27,12 +27,13 @@ const PlatformSection: FC = () => {
             className="absolute right-[80px] bottom-4"
           />
           <h2 className="relative monda lg:text-[54px] md:text-[40px] text-[33px]  font-bold tracking-[1px] text-center">
-            Tous les outils réunis sur une seule plateforme !
+            Tous vos outils rassemblés sur une seule plateforme pour une gestion
+            simplifiée{" "}
           </h2>
         </div>
         <div className="mt-6 flex items-center justify-center flex-wrap gap-x-8 gap-y-2">
           <div className="text-yellow font-semibold text-lg monsterrat  w-max">
-            Ressource Humaine
+            Facturation
           </div>
           {keywords.map((keyword) => (
             <div

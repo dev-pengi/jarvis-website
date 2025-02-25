@@ -2,25 +2,29 @@ import { FC } from "react";
 import Container from "../components/Container";
 
 const categories = [
-  { label: "Supervision", color: "#FFB4D3" },
+  { label: "CRM", color: "#FFB4D3" },
   {
-    label: "Dashboard",
-    color: "#FFC24C ",
-  },
-  {
-    label: "Plannification",
-    color: "#D387F7",
-  },
-  {
-    label: "CRM",
-    color: "#77E6FF",
-  },
-  {
-    label: "Intervention",
+    label: "Planification",
     color: "#23C9DE",
   },
   {
-    label: "RH",
+    label: "HR",
+    color: "#D387F7",
+  },
+  {
+    label: "Main courante",
+    color: "#D387F7",
+  },
+  {
+    label: "Dashboard",
+    color: "#23C9DE",
+  },
+  {
+    label: "Supervision",
+    color: "#D387F7",
+  },
+  {
+    label: "Intervention",
     color: "#FF9E9E",
   },
 ];
@@ -36,7 +40,7 @@ const ProjectsSections: FC = () => {
             className="absolute left-[50px] -top-3"
           />
           <h2 className="relative monda lg:text-[54px] md:text-[40px] text-[33px]  font-bold tracking-[1px] text-center">
-            Prêt à répondre à chaque exigence
+            Prêt à statisfaire toutes vos exigences {" "}
           </h2>
         </div>
         <div className="mt-11">
@@ -55,16 +59,15 @@ const ProjectsSections: FC = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className="relative w-full">
-            <img src="projects-frame.png" alt="" className="w-full" />
-            <div className="absolute left-0 right-0 top-0 bottom-0 m-auto lg:leading-[50px] lg:text-[40px] md:leading-[40px] md:text-[30px] xsm:text-xl text-base h-max font-bold text-center">
+          <div className="relative w-full max-w-[1140px] aspect-[1140/493] bg-[#6492B4] rounded-[30px]">
+            <div className="absolute left-0 right-0 top-0 bottom-0 m-auto lg:leading-[50px] lg:text-[40px] md:leading-[40px] md:text-[30px] xsm:text-xl text-base h-max text-center monda font-bold">
               <p>Révolutionnez vos plannings avec</p>
               <p>l'automatisation et</p>
               <p>l'optimisation boostées par l'IA</p>
             </div>
             <div className="absolute bg-yellow left-0 right-0 mx-auto w-full max-w-max md:-bottom-6 xsm:-bottom-10 -bottom-16 py-1.5 px-6 border-[4px] border-black border-solid rounded-full font-bold monsterrat">
               <p className="break-words text-center md:text-lg xsm:text-base text-[15px]">
-                10+ fonctionnalités puissantes pour propulser la gestion de
+                Des fonctionnalités puissantes pour propulser la gestion de
                 votre entreprise
               </p>
             </div>

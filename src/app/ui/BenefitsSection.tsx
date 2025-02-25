@@ -10,7 +10,7 @@ const benefitsCards = [
     extra: [
       "Suivi en temps réel des équipes, des tâches et des opérations de sécurité.",
       "Signalement des incidents et gestion des événements avec des rapports d’activité personnalisables.",
-      "Supervision multi-sites pour une gestion optimisée sur plusieurs emplacements.",
+      "Supervision multi-sites pour une gestion optimisée.",
     ],
   },
   {

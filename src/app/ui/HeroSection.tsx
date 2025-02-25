@@ -7,27 +7,11 @@ const HeroSection: FC = () => {
       <section className="pt-32">
         <Container>
           <div className="relative">
-            <img
-              src="/three-stars.png"
-              alt=""
-              className="absolute left-[50px] -top-12"
-            />
-            <img
-              src="/three-stars.png"
-              alt=""
-              className="absolute right-[50px] -top-12"
-            />
             <h1 className="relative monda lg:text-7xl md:text-5xl text-4xl font-bold tracking-[1px] text-center">
-              Optimisez vos opérations en toute simplicité
+              Jarvis : l'outil de gestion digital qui transforme votre
+              entreprise pour plus d'efficacité et de performance
             </h1>
-          </div>
-          <div className="lg:text-[26px] md:text-[20px] text-[18px] lg:leading-[46px] leading-[30px] mt-8 font-medium text-gray-3 text-center flex flex-col items-center justify-center">
-            <p className="montserrat">
-              Une plateforme tout-en-un pour l'analyse en temps réel,
-            </p>
-            <p className="montserrat">la gestion des ressources</p>
-            <p className="">et l'amélioration continue sur plusieurs sites.</p>
-          </div>
+          </div>x
           <div className="relative flex justify-center mt-8">
             <button
               className="relative py-4 px-12 monsterrat rounded-2xl bg-accent text-white font-bold text-lg"
