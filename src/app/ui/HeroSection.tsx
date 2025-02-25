@@ -11,7 +11,7 @@ const HeroSection: FC = () => {
               Jarvis : l'outil de gestion digital qui transforme votre
               entreprise pour plus d'efficacité et de performance
             </h1>
-          </div>x
+          </div>
           <div className="relative flex justify-center mt-8">
             <button
               className="relative py-4 px-12 monsterrat rounded-2xl bg-accent text-white font-bold text-lg"

@@ -1,11 +1,13 @@
+import { FC } from "react";
 import BenefitsSection from "./ui/BenefitsSection";
 import Footer from "./ui/Footer";
 import HeroSection from "./ui/HeroSection";
 import Navbar from "./ui/Navbar";
 import PlatformSection from "./ui/PlatformSection";
 import ProjectsSections from "./ui/ProjectsSections";
+import WhatsappScreenshot from "./ui/WhatsappExample";
 
-export default function Home() {
+const Home: FC = () => {
   return (
     <>
       <Navbar />
@@ -13,7 +15,10 @@ export default function Home() {
       <ProjectsSections />
       <PlatformSection />
       <BenefitsSection />
+      <WhatsappScreenshot />
       <Footer />
     </>
   );
-}
+};
+
+export default Home;

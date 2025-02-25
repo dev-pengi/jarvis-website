@@ -34,13 +34,8 @@ const ProjectsSections: FC = () => {
     <section className="pt-16">
       <Container>
         <div className="relative">
-          <img
-            src="/three-stars.png"
-            alt=""
-            className="absolute left-[50px] -top-3"
-          />
           <h2 className="relative monda lg:text-[54px] md:text-[40px] text-[33px]  font-bold tracking-[1px] text-center">
-            Prêt à statisfaire toutes vos exigences {" "}
+            Prêt à statisfaire toutes vos exigences
           </h2>
         </div>
         <div className="mt-11">
