@@ -19,7 +19,7 @@ const PaymentSection: FC = () => {
           entreprise.
         </p>
 
-        <div className="flex items-center justify-center gap-8 mt-16">
+        <div className="flex items-center justify-center flex-wrap gap-8 mt-16">
           <div className="w-full max-w-[364px] bg-[#6492B4]/40 rounded-[20px] py-[20px] px-[26px]">
             <div>
               <div className="bg-white py-[5px] px-[20px] w-max text-[14.5px] rounded-md poppins">
