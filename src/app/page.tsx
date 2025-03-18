@@ -5,7 +5,8 @@ import HeroSection from "./ui/HeroSection";
 import Navbar from "./ui/Navbar";
 import PlatformSection from "./ui/PlatformSection";
 import ProjectsSections from "./ui/ProjectsSections";
-import WhatsappScreenshot from "./ui/WhatsappExample";
+import PaymentSection from "./ui/PaymentSection";
+import ContactSection from "./ui/ContactSection";
 
 const Home: FC = () => {
   return (
@@ -15,7 +16,9 @@ const Home: FC = () => {
       <ProjectsSections />
       <PlatformSection />
       <BenefitsSection />
-      <WhatsappScreenshot />
+      <PaymentSection />
+      <ContactSection />
+      {/* <WhatsappScreenshot /> */}
       <Footer />
     </>
   );

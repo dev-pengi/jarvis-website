@@ -76,25 +76,24 @@ const BenefitsSection: FC = () => {
               >
                 <div
                   className={clsx(
-                    "bg-accent/10 w-full max-w-[853px] lg:h-[387px] md:h-[327px] flex flex-col items-start justify-start pb-9 sm:pt-0 pt-9",
+                    "bg-accent/10 w-full lg:h-[387px] md:h-[327px] h-max md:py-0 py-4 flex flex-col items-center justify-center text-center md:rounded-none rounded-lg",
                     index % 2 === 0
-                      ? "rounded-ee-[260px] md:pl-16 pl-4"
-                      : "rounded-es-[260px] md:pr-20 pr-6 items-end justify-end pb-16"
+                      ? "md:rounded-ee-[260px]"
+                      : "md:rounded-es-[260px] bg-[#F5EEE6]"
                   )}
                 >
-                  <div className="flex-1" />
                   <h3
                     className={clsx(
-                      "lg:text-[56px] md:text-[40px] text-[30px] font-semibold text-gray-2 text-start",
-                      index % 2 !== 0 && "w-full max-w-[min(512px,75%)] text-start"
+                      "lg:text-[52px] md:text-[40px] text-[30px] font-semibold text-gray-2 ",
+                      index % 2 !== 0 && "w-full max-w-[min(512px,75%)] "
                     )}
                   >
                     {card.title}
                   </h3>
                   <p
                     className={clsx(
-                      "poppins font-normal text-gray-2 lg:text-2xl md:text-xl text-base mt-8 max-w-[min(512px,70%)]",
-                      index % 2 !== 0 && "sm:text-start text-end"
+                      "poppins font-normal text-gray-2 lg:text-xl md:text-lg text-base mt-8 max-w-[min(512px,70%)]",
+                      index % 2 !== 0 && ""
                     )}
                   >
                     {card.detail}
@@ -102,13 +101,23 @@ const BenefitsSection: FC = () => {
                 </div>
               </div>
               <div className="grid grid-cols-[repeat(auto-fill,minmax(340px,1fr))] justify-center items-center gap-6 mt-16">
-                {card.extra.map((extra, index) => (
+                {card.extra.map((extra, index2) => (
                   <div
-                    key={index}
-                    className="border border-solid border-gray-2 px-[9.5px] py-4 flex items-center gap-6 sm:h-[112px] rounded-2xl"
+                    key={index2}
+                    className={clsx(
+                      "border border-solid px-[9.5px] py-4 flex items-center gap-6 sm:h-[112px] rounded-2xl",
+                      index % 2 === 0 ? "border-gray-2" : "border-[#B45624]"
+                    )}
                   >
-                    <div className="border-[3px] border-solid border-accent/70 text-accent/70 min-w-[80px] h-[80px] flex items-center justify-center rounded-full font-bold text-3xl poppins">
-                      0{index + 1}
+                    <div
+                      className={clsx(
+                        "border-[3px] border-solid min-w-[80px] h-[80px] flex items-center justify-center rounded-full font-bold text-3xl poppins",
+                        index % 2 === 0
+                          ? "border-accent/70 text-accent/70"
+                          : "border-[#CF956B] text-[#B45624]"
+                      )}
+                    >
+                      0{index2 + 1}
                     </div>
                     <p className="poppins font-normal text-[15px] text-gray-2">
                       {extra}

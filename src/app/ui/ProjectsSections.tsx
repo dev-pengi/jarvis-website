@@ -54,13 +54,15 @@ const ProjectsSections: FC = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className="relative w-full max-w-[1140px] aspect-[1140/493] bg-[#6492B4] rounded-[30px]">
+          <div className="relative w-full max-w-[1140px] aspect-[1140/493] rounded-[30px]">
+            <div className="yellow-glow absolute left-0 right-0 top-0 bottom-0 m-auto w-[388px] h-[141px]" />
+
             <div className="absolute left-0 right-0 top-0 bottom-0 m-auto lg:leading-[50px] lg:text-[40px] md:leading-[40px] md:text-[30px] xsm:text-xl text-base h-max text-center monda font-bold">
               <p>Révolutionnez vos plannings avec</p>
               <p>l'automatisation et</p>
               <p>l'optimisation boostées par l'IA</p>
             </div>
-            <div className="absolute bg-yellow left-0 right-0 mx-auto w-full max-w-max md:-bottom-6 xsm:-bottom-10 -bottom-16 py-1.5 px-6 border-[4px] border-black border-solid rounded-full font-bold monsterrat">
+            <div className="absolute bg-[#E8D5C3] left-0 right-0 mx-auto w-full max-w-max md:-bottom-6 xsm:-bottom-10 -bottom-16 py-1.5 px-6 border-[4px] border-black border-solid rounded-full font-bold monsterrat">
               <p className="break-words text-center md:text-lg xsm:text-base text-[15px]">
                 Des fonctionnalités puissantes pour propulser la gestion de
                 votre entreprise
@@ -69,6 +71,15 @@ const ProjectsSections: FC = () => {
           </div>
         </div>
       </Container>
+
+      <style>
+        {`
+          .yellow-glow {
+            background: #B45624;
+            filter: blur(202px);
+          }
+        `}
+      </style>
     </section>
   );
 };
