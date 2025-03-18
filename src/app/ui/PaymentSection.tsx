@@ -40,9 +40,9 @@ const PaymentSection: FC = () => {
               </span>
             </div>
             <div className="my-[28px] bg-[#001C80] h-[1px] w-full" />
-            <button className="bg-black py-[7px] w-[100%] rounded roboto text-[14.5px] font-bold text-white">
+            <a href="https://dashboard.extjarvis.fr" className="bg-black py-[7px] w-[100%] rounded roboto text-[14.5px] font-bold text-white flex justify-center">
               <span>Début</span>
-            </button>
+            </a>
           </div>
 
           <div className="relative w-full max-w-[364px] bg-[#6492B4]/40 rounded-[20px] py-[20px] px-[26px] overflow-hidden">
@@ -69,9 +69,9 @@ const PaymentSection: FC = () => {
               </span>
             </div>
             <div className="my-[28px] bg-[#001C80] h-[1px] w-full" />
-            <button className="bg-black py-[7px] w-[100%] rounded roboto text-[14.5px] font-bold text-white">
+            <a href="https://dashboard.extjarvis.fr" className="bg-black py-[7px] w-[100%] rounded roboto text-[14.5px] font-bold text-white flex justify-center">
               <span>Début</span>
-            </button>
+            </a>
           </div>
         </div>
       </Container>

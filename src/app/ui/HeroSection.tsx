@@ -13,11 +13,12 @@ const HeroSection: FC = () => {
             </h1>
           </div>
           <div className="relative flex justify-center mt-8">
-            <button
+            <a
               className="relative py-4 px-12 monsterrat rounded-2xl bg-accent text-white font-bold text-lg"
               style={{
                 boxShadow: "0px 9px 44px 0 #FFCF0132",
               }}
+              href="https://dashboard.extjarvis.fr"
             >
               Get started
               <img
@@ -25,7 +26,7 @@ const HeroSection: FC = () => {
                 alt=""
                 className="absolute -right-[100px] -top-6"
               />
-            </button>
+            </a>
           </div>
           <div className="flex items-center justify-center mt-32">
             <img
