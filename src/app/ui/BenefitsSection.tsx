@@ -76,9 +76,9 @@ const BenefitsSection: FC = () => {
               >
                 <div
                   className={clsx(
-                    "bg-accent/10 w-full lg:h-[387px] md:h-[327px] h-max md:py-0 py-4 flex flex-col items-center justify-center text-center md:rounded-none rounded-lg",
+                    "w-full lg:h-[387px] md:h-[327px] h-max md:py-0 py-4 flex flex-col items-center justify-center text-center md:rounded-none rounded-lg",
                     index % 2 === 0
-                      ? "md:rounded-ee-[260px]"
+                      ? "md:rounded-ee-[260px] bg-accent/10"
                       : "md:rounded-es-[260px] bg-[#F5EEE6]"
                   )}
                 >
