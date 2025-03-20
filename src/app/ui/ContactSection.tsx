@@ -11,8 +11,8 @@ const ContactSection: FC = () => {
   return (
     <section className="pt-32" id="contact">
       <Container>
-        <div className="flex flex-col md:flex-row bg-white shadow-light w-max mx-auto rounded overflow-hidden">
-          <div className="w-full px-12 py-24 max-w-[550px]">
+        <div className="flex flex-col md:flex-row bg-white shadow-light w-full max-w-[500px] mx-auto rounded overflow-hidden">
+          <div className="xsm:px-12 px-4 py-24">
             <h2 className="text-2xl font-bold mb-6">Contact us</h2>
             <div className="space-y-4">
               <input
