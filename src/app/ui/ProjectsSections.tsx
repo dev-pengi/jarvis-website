@@ -31,7 +31,7 @@ const categories = [
 
 const ProjectsSections: FC = () => {
   return (
-    <section className="pt-16">
+    <section className="pt-16" id="about">
       <Container>
         <div className="relative">
           <h2 className="relative monda lg:text-[54px] md:text-[40px] text-[33px]  font-bold tracking-[1px] text-center">

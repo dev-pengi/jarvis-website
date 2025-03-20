@@ -1,12 +1,7 @@
 import { FC } from "react";
 import Container from "../components/Container";
 
-const keywords = [
-  "RH",
-  "Gestion des stocks",
-  "Planification",
-  "Rapport",
-];
+const keywords = ["RH", "Gestion des stocks", "Planification", "Rapport"];
 
 const PlatformSection: FC = () => {
   return (

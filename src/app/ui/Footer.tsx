@@ -37,9 +37,9 @@ const Footer: FC = () => {
             </span>
           </div>
           <div className="flex items-center flex-wrap gap-16">
-            <div className="flex items-center gap-[56px] text-lg font-semibold">
+            {/* <div className="flex items-center gap-[56px] text-lg font-semibold">
               <a href="/platform">Contact Us</a>
-            </div>
+            </div> */}
             <div className="flex items-center gap-5">
               {socialMedia.map((social) => (
                 <a

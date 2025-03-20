@@ -16,13 +16,28 @@ const Navbar: FC = () => {
             <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
               Home
             </a>
-            <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
-              Services
-            </a>
-            <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
+            <a
+              href="#about"
+              className="text-gray-3 hover:text-gray-1 font-semibold"
+            >
               About
             </a>
-            <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
+            <a
+              href="#services"
+              className="text-gray-3 hover:text-gray-1 font-semibold"
+            >
+              Services
+            </a>
+            <a
+              href="#pricing"
+              className="text-gray-3 hover:text-gray-1 font-semibold"
+            >
+              Pricing
+            </a>
+            <a
+              href="#contact"
+              className="text-gray-3 hover:text-gray-1 font-semibold"
+            >
               Contact
             </a>
           </div>

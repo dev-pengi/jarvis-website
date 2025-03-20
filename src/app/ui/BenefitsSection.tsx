@@ -57,7 +57,7 @@ const benefitsCards = [
 
 const BenefitsSection: FC = () => {
   return (
-    <section className="pt-32">
+    <section className="pt-32" id="services">
       <Container>
         <div className="flex flex-col gap-16 ">
           {benefitsCards.map((card, index) => (
