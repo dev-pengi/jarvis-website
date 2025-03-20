@@ -42,7 +42,7 @@ const Navbar: FC = () => {
             </a>
           </div>
           <a
-            href="https://dashboard.extjarvis.fr"
+            href="https://app.extjarvis.net"
             // target="_blank"
             className="bg-[#243241] rounded-xl text-lg monsterrat font-black text-white px-[20px] py-[7px] hover:opacity-85 duration-100"
           >

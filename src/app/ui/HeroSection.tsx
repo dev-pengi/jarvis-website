@@ -18,7 +18,7 @@ const HeroSection: FC = () => {
               style={{
                 boxShadow: "0px 9px 44px 0 #FFCF0132",
               }}
-              href="https://dashboard.extjarvis.fr"
+              href="https://app.extjarvis.net"
             >
               Get started
               <img
