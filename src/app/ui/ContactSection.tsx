@@ -50,17 +50,17 @@ const ContactSection: FC = () => {
             </button>
           </div>
           <div className="w-full md:w-1/2 px-8 bg-[#6492B4]/90 text-white py-24">
-            <h2 className="text-center font-bold mb-6 text-4xl">
+            <h2 className="text-center font-bold text-4xl">
               Visit <span className="text-[#FFA800]">us</span>
             </h2>
-            <a
+            {/* <a
               className=""
               href="https://www.google.fr/maps/place/64+Av.+Marinville,+94100+Saint-Maur-des-Foss%C3%A9s,+France/@48.8080856,2.4756554,17z/data=!3m1!4b1!4m6!3m5!1s0x47e60ce6d540cdcf:0x917912d5123fe71a!8m2!3d48.8080821!4d2.4782303!16s%2Fg%2F11l6h9s110?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
             >
               <img src="/map.png" alt="map" className="w-full h-auto" />
-            </a>
-            <ul className="mt-4 space-y-2">
+            </a> */}
+            <ul className="mt-7 space-y-2">
               <li>
                 64 AVENUE DE MARINVILLE SAINT-MAUR-DES-FOSSES 94100 France
               </li>
