@@ -13,29 +13,29 @@ const Navbar: FC = () => {
             </span>
           </div>
           <div className="lg:flex hidden items-center space-x-11">
-            <a href="#" className="text-gray-3 hover:text-gray-1 font-semibold">
+            <a href="/#" className="text-gray-3 hover:text-gray-1 font-semibold">
               Home
             </a>
             <a
-              href="#about"
+              href="/#about"
               className="text-gray-3 hover:text-gray-1 font-semibold"
             >
               About
             </a>
             <a
-              href="#services"
+              href="/#services"
               className="text-gray-3 hover:text-gray-1 font-semibold"
             >
               Services
             </a>
             <a
-              href="#pricing"
+              href="/#pricing"
               className="text-gray-3 hover:text-gray-1 font-semibold"
             >
               Pricing
             </a>
             <a
-              href="#contact"
+              href="/#contact"
               className="text-gray-3 hover:text-gray-1 font-semibold"
             >
               Contact
