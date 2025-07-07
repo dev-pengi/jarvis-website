@@ -3,6 +3,8 @@ import { FC, useState } from "react";
 import { pdfjs, Document, Page } from "react-pdf";
 import Navbar from "../ui/Navbar";
 import Footer from "../ui/Footer";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/esm/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
@@ -27,8 +29,8 @@ const page: FC = () => {
               width={
                 typeof window !== "undefined" ? window.innerWidth * 0.9 : 800
               }
-              renderTextLayer={false}
-              renderAnnotationLayer={false}
+              renderTextLayer
+              renderAnnotationLayer
             />
           ))}
         </Document>
